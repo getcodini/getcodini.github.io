@@ -72,6 +72,7 @@ a:focus {
 
 .navbar-custom .navbar-brand {
     font-weight: 700;
+    display: block-inline;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -372,4 +373,11 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.title-logo {
+    margin-top: -14px;
+}
+.title-text{
+    margin-left: 20px;
 }
